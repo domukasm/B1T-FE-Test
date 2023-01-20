@@ -1,47 +1,49 @@
-.row {
-    width: 1200px;
-    margin-left: calc(50% - 600px);
+.container {
+  float: left;
+  width: 100%;
+  padding: 20px 20px;
+}
+
+.container > .row {
+  float: left;
+  width: 100%;
+}
+
+.container > .row + .row {
+  margin-top: 55px;
+}
+
+@media (min-width: 576px) {
+  .container > .row {
+    width: 540px;
+    margin: 0 calc(50% - 270px);
   }
-  
-@media (max-width: 1300px) {
-    .row {
-      width: 1000px;
-      margin-left: calc(50% - 500px);
-    }
+}
+
+@media (min-width: 768px) {
+  .container > .row {
+    width: 720px;
+    margin: 0 calc(50% - 360px);
   }
-  
-@media (max-width: 1100px) {
-    .row {
-      width: 900px;
-      margin-left: calc(50% - 450px);
-    }
+}
+
+@media (min-width: 992px) {
+  .container > .row {
+    width: 960px;
+    margin: 0 calc(50% - 480px);
   }
-  
-  @media (max-width: 996px) {
-    .row {
-      width: 700px;
-      margin-left: calc(50% - 350px);
-    }
+}
+
+@media (min-width: 1200px) {
+  .container > .row {
+    width: 1140px;
+    margin: 0 calc(50% - 570px);
   }
-  
-  @media (max-width: 768px) {
-    .row {
-      width: 500px;
-      margin-left: calc(50% - 250px);
-    }
+}
+
+@media (min-width: 1400px) {
+  .container > .row {
+    width: 1320px;
+    margin: 0 calc(50% - 660px);
   }
-  
-  @media (max-width: 600px) {
-    .row {
-      width: 400px;
-      margin-left: calc(50% - 200px);
-    }
-  }
-  
-  @media (max-width: 460px) {
-    .row {
-      width: 250px;
-      margin-left: calc(50% - 125px);
-    }
-  }
-  
+}

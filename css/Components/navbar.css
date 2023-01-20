@@ -37,7 +37,7 @@ nav {
     }
     .bars-button {
         color: var(--first-color);
-        display: block;
+        display: inline-block;
         font-size: 30px;
     }
 }

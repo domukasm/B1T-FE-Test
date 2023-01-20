@@ -1,0 +1,37 @@
+.footer {
+    background-color: var(--second-color);
+    height: 125px;
+    padding: 0;
+}
+  
+.footer-icons-gap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    gap: 10px;
+}
+  
+.footer-icons {
+    display: flex;
+    gap: 30px;
+}
+  
+.footer-icons > a {
+    color: var(--first-color);
+}
+  
+.footer-rights {
+    color: var(--first-color);
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 200;
+}
+  
+  @media (min-width: 768px) {
+    .footer-icons-gap {
+      justify-content: space-between;
+      flex-direction: row;
+    }
+  }
