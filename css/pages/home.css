@@ -1,0 +1,6 @@
+@import '../basic/base.css';
+@import '../basic/layout.css';
+@import '../components/navbar.css';
+@import '../components/footer.css';
+@import '../components/hero.css';
+@import '../components/button.css';
